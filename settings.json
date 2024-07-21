@@ -1,0 +1,154 @@
+{
+    "remote.SSH.remotePlatform": {
+        "10.11.12.189": "linux",
+        "101.132.189.70": "linux",
+        "myth-server": "linux",
+        "test-server": "linux"
+    },
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.list.smoothScrolling": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.mouseWheelZoom": true,
+    // 控制活动代码段是否阻止快速建议
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    // 除了 `Tab` 键以外， `Enter` 键是否同样可以接受建议
+    // 这能减少“插入新行”和“接受建议”命令之间的歧义
+    "editor.acceptSuggestionOnEnter": "smart",
+    // 代码补全列表中，优先选择最近的建议
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.guides.bracketPairs": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.autoClosingDelete": "always",
+    "editor.autoClosingOvertype": "always",
+    // 关闭缩进猜测
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "window.dialogStyle": "custom",
+    "editor.wordWrap": "on",
+    "editor.lineHeight": 1.5,
+    // 文件夹紧凑模式
+    "explorer.compactFolders": true,
+    "notebook.compactView": true,
+    "editor.autoClosingQuotes": "beforeWhitespace",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.fontSize": 17,
+    "editor.fontLigatures": false,
+    // 删除不必要的分号
+    "javascript.format.semicolons": "remove",
+    "typescript.format.semicolons": "remove",
+    // typescript设置中文
+    "typescript.locale": "zh-CN",
+    // 类型提示
+    "javascript.inlayHints.enumMemberValues.enabled": true,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": false,
+    "javascript.inlayHints.parameterNames.enabled": "none",
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "typescript.preferences.preferTypeOnlyAutoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.preferences.includePackageJsonAutoImports": "on",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "javascript.suggest.completeFunctionCalls": true,
+    "typescript.suggest.completeFunctionCalls": true,
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "vue.updateImportsOnFileMove.enabled": true,
+    "vue.inlayHints.missingProps": true,
+    "vue.autoInsert.dotValue": true,
+    "workbench.startupEditor": "none",
+    "files.autoGuessEncoding": true,
+    "files.trimTrailingWhitespace": false,
+    "search.searchEditor.singleClickBehaviour": "peekDefinition",
+    "editor.stickyScroll.enabled": true,
+    // 终端配置
+    "terminal.integrated.shellIntegration.suggestEnabled": true,
+    "terminal.integrated.stickyScroll.enabled": true,
+    "terminal.integrated.gpuAcceleration": "on",
+    "accessibility.signals.terminalCommandFailed": {
+        "sound": "auto",
+        "announcement": "auto"
+    },
+    // 行内样式代码补全
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.wordSeparators": "`~!@%^&*()=+[{]}\\|;:'\",.<>/?（），。；：",
+    "editor.minimap.enabled": false,
+    "editor.foldingStrategy": "indentation",
+    "search.followSymlinks": false,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/pnpm-lock.yaml": true,
+        "**/package-lock.json": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.gitignore": true,
+        "**/.idea": true,
+        "**/.svn": true,
+        "**/.vscode": true,
+        "**/build": true,
+        "**/dist": true,
+        "**/tmp": true,
+        "**/yarn.lock": true
+    },
+    "files.associations": {
+        "*.wxss": "css",
+        "*.wxml": "html",
+        "*.svg": "html",
+        "*.xml": "html",
+        "*.wxs": "javascript",
+        // json注释
+        "*.cjson": "jsonc",
+        "*.json": "jsonc"
+    },
+    "explorer.copyRelativePathSeparator": "/",
+    "python.languageServer": "Default",
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.autoFormatStrings": true,
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off",
+        "editor.autoClosingBrackets": "languageDefined",
+        "editor.autoIndent": "full",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.vscode-pylance"
+    },
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4
+    },
+    "python.autoComplete.extraPaths": [],
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 1,
+    "workbench.settings.applyToAllProfiles": [],
+    "python.analysis.extraPaths": [],
+    "git.openRepositoryInParentFolders": "never",
+    "[vue]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.editor.enablePreview": false, //打开文件不覆盖
+    "files.autoSave": "afterDelay", //打开自动保存
+    "editor.lineNumbers": "on", //开启行数提示
+    "editor.formatOnSave": true, //每次保存自动格式化
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true, //让函数(名)和后面的括号之间加个空格
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "breadcrumbs.enabled": true,
+    "editor.renderControlCharacters": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "files.eol": "\n",
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "explorer.confirmPasteNative": false,
+    "python.analysis.autoImportCompletions": true,
+}
